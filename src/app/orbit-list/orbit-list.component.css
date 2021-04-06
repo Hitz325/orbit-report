@@ -8,12 +8,20 @@
 }
 
 table {
-  color: #111;
+  color: rgb(229, 233, 13);
   border-radius: 5px;
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
   background: #12c5c5;
+}
+
+tr:nth-child(2n) {
+    background: #0868d6;
+}
+
+tr:nth-child(2n+3) {
+      background: #09df2c
 }
 
 .header-row {
